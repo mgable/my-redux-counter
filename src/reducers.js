@@ -23,7 +23,7 @@ function answers(state = words, action) {
 	console.info("Answeers was called with action");
 	console.info(JSON.stringify(state, null, 4));
 	console.info(JSON.stringify(action, null, 4));
-	return words;
+	return state;
 }
 
 const counterApp = combineReducers({
